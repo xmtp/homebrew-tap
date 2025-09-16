@@ -21,7 +21,7 @@ cask "xmtpd-cli" do
     end
     on_arm do
       url "https://github.com/xmtp/xmtpd/releases/download/v#{version}/xmtpd-cli_v#{version}_darwin_arm64.zip"
-      sha256 "b36112a337fad061378e7d585238c77ee8ed894726516db414f9f8aef80a9186"
+      sha256 "208b1464ca86488e2bbe7a7a6126d6af5ba95c09c5560d2d4f4fa708ba52698c"
     end
   end
 
