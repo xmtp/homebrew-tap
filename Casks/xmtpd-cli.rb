@@ -3,7 +3,7 @@ cask "xmtpd-cli" do
   name "xmtpd-cli"
   desc "CLI to manage the XMTP Network."
   homepage "https://github.com/xmtp/xmtpd"
-  version "0.5.0"
+  version "0.5.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -16,23 +16,23 @@ cask "xmtpd-cli" do
 
   on_macos do
     on_intel do
-      url "https://github.com/xmtp/xmtpd/releases/download/v#{version}/xmtpd-cli_v#{version}_darwin_amd64.zip"
-      sha256 "d46f5930bb176abfdccde0457891bb5914227d779f44af5ea60a42ce8bf2b794"
+      url "https://github.com/xmtp/xmtpd/releases/download/v#{version}/xmtpd-cli_#{version}_darwin_amd64.zip"
+      sha256 "d0fee214caa6fca47045dd6f816adc125210f4d33f4391e9557375e44462734d"
     end
     on_arm do
-      url "https://github.com/xmtp/xmtpd/releases/download/v#{version}/xmtpd-cli_v#{version}_darwin_arm64.zip"
-      sha256 "208b1464ca86488e2bbe7a7a6126d6af5ba95c09c5560d2d4f4fa708ba52698c"
+      url "https://github.com/xmtp/xmtpd/releases/download/v#{version}/xmtpd-cli_#{version}_darwin_arm64.zip"
+      sha256 "95e193cfb784c721360fca666ee4bb26bf8425f86f5288d3bab93c5b7c4b1ed0"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/xmtp/xmtpd/releases/download/v#{version}/xmtpd-cli_v#{version}_linux_amd64.zip"
-      sha256 "2b6bc3d1a7fd7d458964f75a12b8ae1dac1641fe31077d20cc460409028f85c9"
+      url "https://github.com/xmtp/xmtpd/releases/download/v#{version}/xmtpd-cli_#{version}_linux_amd64.zip"
+      sha256 "b3f7af74d7307cc19c1405d9bf84d6ef6615a42f901052b2ef70d248a5fe49ca"
     end
     on_arm do
-      url "https://github.com/xmtp/xmtpd/releases/download/v#{version}/xmtpd-cli_v#{version}_linux_arm64.zip"
-      sha256 "bb577b630b1d709d926bb5ad02f02a4443051b0e2eb340e9f842ec7489cdd788"
+      url "https://github.com/xmtp/xmtpd/releases/download/v#{version}/xmtpd-cli_#{version}_linux_arm64.zip"
+      sha256 "7eb62a2144e7bcaa77ae51980f134ccb23a7a6492dcdd30f3ff109c7a31e0215"
     end
   end
 
