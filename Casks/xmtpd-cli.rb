@@ -17,22 +17,22 @@ cask "xmtpd-cli" do
   on_macos do
     on_intel do
       url "https://github.com/xmtp/xmtpd/releases/download/v#{version}/xmtpd-cli_#{version}_darwin_amd64.zip"
-      sha256 "85a17db42216a4289fdbc2e91df389922179d8be3c13d9cffadef14a8ab75926"
+      sha256 "bd27ca2e6af52764d32ba41064065752771d68d5f540190adc0afa70c2cef897"
     end
     on_arm do
       url "https://github.com/xmtp/xmtpd/releases/download/v#{version}/xmtpd-cli_#{version}_darwin_arm64.zip"
-      sha256 "c153327d3bb80fc3582514b12196548650f299a54f3138896e25604c5cf4efcf"
+      sha256 "ea6cddccdf6bad70e6768c9f4c7ecb2839f206a61a13a506bc1bfee731a11315"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/xmtp/xmtpd/releases/download/v#{version}/xmtpd-cli_#{version}_linux_amd64.zip"
-      sha256 "9fd6216c813e566dd595f1e03237f7dedb7765e022b62c6e3972588f3fb73856"
+      sha256 "75adf8a68df4924a3a425d2243c9c827112c4bc64262798cd020426660d070e3"
     end
     on_arm do
       url "https://github.com/xmtp/xmtpd/releases/download/v#{version}/xmtpd-cli_#{version}_linux_arm64.zip"
-      sha256 "6f90fe2407bc222226253f318391321787505ced49b5fca3b50aa60af84f8d60"
+      sha256 "10dee03a4b50bc15785a8ac3bdcb514f3208522f8ab7e9a6c659526baf2f45c9"
     end
   end
 
